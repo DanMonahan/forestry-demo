@@ -31,10 +31,10 @@ sections:
   create: all
   match: "**/*"
 upload_dir: uploads
-public_path: "/uploads"
+public_path: "/static/img"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":year:/:month:/:day:/:filename:"
+file_template: ":filename:"
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
   publish_command: jekyll build
