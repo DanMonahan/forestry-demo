@@ -14,18 +14,11 @@ sections:
 - type: document
   path: data/publications.yaml
   label: Landing Pages
-  match: "**/*"
 - type: directory
   path: content
   label: Editions
   create: all
   match: "**/*"
-- type: directory
-  path: content/projects
-  label: Cartoons
-  create: all
-  match: "**/*"
-  exclude: content/projects/_index.md
 - type: directory
   path: content/projects
   label: 'Blogs '
