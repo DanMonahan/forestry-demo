@@ -4,6 +4,34 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Other
+- type: directory
+  path: content/people
+  label: Authors
+  create: all
+  match: "**/*"
+- type: document
+  path: data/publications.yaml
+  label: Landing Pages
+  match: "**/*"
+- type: directory
+  path: content
+  label: Editions
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/projects
+  label: Cartoons
+  create: all
+  match: "**/*"
+  exclude: content/projects/_index.md
+- type: directory
+  path: content/projects
+  label: 'Blogs '
+  create: all
+  match: "**/*"
+  exclude: content/projects/_index.md
 - type: directory
   path: ''
   label: Posts
