@@ -5,5 +5,3 @@ fields:
 - type: file
   name: banner_image
   label: Banner Image
-pages:
-- Louies the dog.md
