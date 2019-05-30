@@ -1,7 +1,0 @@
----
-label: Banner Image
-hide_body: false
-fields:
-- type: file
-  name: banner_image
-  label: Banner Image

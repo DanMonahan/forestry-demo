@@ -1,8 +1,0 @@
----
-label: Posts
-hide_body: false
-fields:
-- type: text
-  name: posts
-  label: Posts
-  description: Edit Posts
