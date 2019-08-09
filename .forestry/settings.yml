@@ -39,12 +39,13 @@ build:
   publish_command: jekyll build
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.53
+  - HUGO_VERSION=0.56.3
   publish_env:
   - HUGO_ENV=production
   - HUGO_VERSION=0.53
   preview_output_directory: public
   output_directory: public
+  install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
